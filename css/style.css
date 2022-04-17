@@ -161,6 +161,8 @@ h6 {
     flex: 0 0 252px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    margin: 0px 0px 0px 20px;
 }
 
 .button {
@@ -189,6 +191,13 @@ h6 {
 .button__blue:hover {
     background-color: #649cf6;
 }
+
+.getStarted__burger {
+    display: none;
+}
+
+
+/* ============================ */
 
 
 /* --------------------getsStarted---------------------- */

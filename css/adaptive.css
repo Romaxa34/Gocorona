@@ -47,4 +47,30 @@
     .getStarted__container::before {
         display: none;
     }
+    .icon__menu {
+        position: relative;
+        flex: 0 0 30px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 0px 0px 20px;
+    }
+    .icon__menu::before,
+    .icon__menu::after {
+        content: "";
+        background-color: #000;
+        height: 2px;
+    }
+    .icon__menu span {
+        height: 2px;
+        background-color: #000;
+    }
+    .header__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
