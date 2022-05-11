@@ -133,7 +133,7 @@ h6 {
 }
 
 .header__logo {
-    position: relative;
+    position: absolute;
     z-index: 3;
 }
 
@@ -348,4 +348,122 @@ h6 {
 }
 
 
-/* ------------------------------------------------------- */
+/* -------------------------get-started------------------------------ */
+
+.get-started {}
+
+.get-started__container {}
+
+.get-started__container::before {
+    content: "";
+    position: absolute;
+    width: 100vh;
+    height: 700px;
+    right: -230px;
+    top: 0px;
+    border-radius: 30px 0px 0px 30px;
+    background-color: #ec5863;
+    z-index: 1;
+}
+
+.get-started__row {
+    display: flex;
+    padding: 114px 0px 0px 0px;
+}
+
+.get-started__card {
+    padding: 126px 15px 0px 18px;
+}
+
+.card__get-started {
+    flex: 1 1 47%;
+}
+
+.card__get-started__title {}
+
+.title {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+}
+
+.blue {
+    color: #4285f4;
+}
+
+.card__get-started__text {
+    padding: 12px 0px 24px 0px;
+}
+
+.text {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.5%;
+    letter-spacing: 0.08em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #616161;
+}
+
+.card__get-started__button {}
+
+.get-started__image {
+    flex: 0 0 53%;
+    position: relative;
+    z-index: 50;
+}
+
+.get-started__image img {
+    padding: 39px 9px 0px 0px;
+}
+
+.get-started__video {}
+
+.video__get-started {
+    padding: 98px 0px 48px 18px;
+}
+
+.video__get-started__body {
+    display: flex;
+}
+
+.video__get-started__icon {
+    padding: 0px 12px 0px 0px;
+}
+
+.video__get-started__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video__get-started__title {
+    padding: 0px 0px 5px 0px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 126%;
+    /* or 16px */
+    letter-spacing: 0.08em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #b0b0b0;
+}
+
+.video__get-started__text {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 126%;
+    /* or 11px */
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+}
