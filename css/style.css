@@ -249,6 +249,7 @@ h6 {
         background-color: #fff;
         padding: 90px 15px 30px 15px;
         transition: left 0.5s ease 0s;
+        z-index: 50;
     }
     .open .menu__body {
         left: 0;
@@ -292,6 +293,7 @@ h6 {
         margin: 10px 10px;
         position: relative;
         cursor: pointer;
+        z-index: 3;
     }
 }
 
@@ -403,7 +405,7 @@ h6 {
 .get-started__image {
     flex: 0 0 53%;
     position: relative;
-    z-index: 50;
+    z-index: 2;
 }
 
 .get-started__image img {
