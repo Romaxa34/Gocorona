@@ -575,19 +575,82 @@ h6 {
 
 /* TALK */
 .talk {
+    background: #fafbfd;
 }
 .talk__result {
+}
+.talk__result__row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 104px 0px 80px 0px;
+    width: 654px;
+    height: 117px;
+    background: #ffffff;
+    box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+    border-radius: 16px;
+}
+.box__1 {
+}
+.box__2 {
+}
+.box__3 {
+}
+.box {
+}
+.number {
+    width: 62px;
+    height: 43px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+
+    letter-spacing: 0.14em;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    color: #ec5863;
+}
+.text__number {
+    width: 160px;
+    height: 13px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    color: #000000;
+}
+.box__2 {
+}
+.box__3 {
 }
 .talk__row {
     display: flex;
 }
 .talk__column {
+    margin: 130px 0px 0px 0px;
 }
 .talk__title {
 }
 .title {
 }
 .talk__text {
+    margin: 12px 0px 24px 0px;
 }
 .text {
 }
@@ -596,4 +659,112 @@ h6 {
 .button {
 }
 .talk__img {
+    margin: 79px 28px 116px 75px;
+}
+
+/* Квадрати */
+.squar {
+}
+.bc {
+    background: #ec5863;
+    border-radius: 30px;
+}
+.squar__1 {
+    content: "";
+    position: absolute;
+    right: 154px;
+    top: 100px;
+    width: 127.47px;
+    height: 127.47px;
+    transform: rotate(-30deg);
+    z-index: -1;
+}
+.squar__2 {
+    position: absolute;
+    z-index: -1;
+    top: 59px;
+    left: 403px;
+    content: "";
+    width: 96.96px;
+    height: 96.96px;
+    transform: rotate(105deg);
+}
+.squar__3 {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 172px;
+    left: 173px;
+    width: 65.75px;
+    height: 65.75px;
+    border-radius: 16px;
+    transform: rotate(-30deg);
+}
+
+/*  healthcare*/
+.healthcare {
+    margin: 80px 0px 50px 0px;
+}
+
+.healthcare__title {
+}
+.healthcare__text {
+    width: 600.9px;
+    height: 52px;
+    margin: 14px 0px 46px 0px;
+}
+.healthcare__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.healthcare__iteam {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 278.17px;
+    height: 276.52px;
+}
+.healthcare__card_1 {
+}
+.card_1__logo {
+}
+.card_1__title {
+}
+.title_card {
+}
+.card_1__text {
+}
+.text_card {
+}
+.healthcare__card_2 {
+}
+.card_2__logo {
+}
+.card_2__title {
+}
+.card_2__text {
+}
+.healthcare__card_3 {
+}
+.card_3__logo {
+}
+.card_3__title {
+}
+.card_3__text {
+}
+
+/* footer */
+.footer__download {
+}
+.download__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px 40px 0px;
+}
+.google {
+}
+.app {
 }
