@@ -705,8 +705,16 @@ h6 {
 .healthcare {
     margin: 80px 0px 50px 0px;
 }
+.healthcare__container {
+}
 
 .healthcare__title {
+}
+.healtcare__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .healthcare__text {
     width: 600.9px;
@@ -715,44 +723,60 @@ h6 {
 }
 .healthcare__row {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 .healthcare__iteam {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 .card {
     width: 278.17px;
     height: 276.52px;
+
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
 }
-.healthcare__card_1 {
-}
-.card_1__logo {
-}
-.card_1__title {
-}
+
 .title_card {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138.5%;
+    /* or 22px */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    color: #000000;
+    margin-bottom: 4px;
 }
-.card_1__text {
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 58px;
 }
 .text_card {
-}
-.healthcare__card_2 {
-}
-.card_2__logo {
-}
-.card_2__title {
-}
-.card_2__text {
-}
-.healthcare__card_3 {
-}
-.card_3__logo {
-}
-.card_3__title {
-}
-.card_3__text {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.5%;
+    /* or 17px */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    color: #616161;
 }
 
 /* footer */
