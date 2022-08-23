@@ -177,7 +177,7 @@ h6 {
     padding: 10px;
 }
 .menu__link:hover {
-    background-color: #ec5863;
+    background-color: #4285f4;
     transition: padding 0.5s ease 0s;
 }
 
@@ -390,7 +390,7 @@ h6 {
 .stay-safe__button {
 }
 
-/* кубіки родеві */
+/* кубіки рожеві */
 
 .r1 {
     content: "";

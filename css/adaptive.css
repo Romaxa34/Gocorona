@@ -62,6 +62,9 @@
         justify-content: center;
         align-items: center;
     }
+    .video__get-started {
+        padding: 58px 0px 48px 18px;
+    }
 }
 
 /* mobile small*/
@@ -69,7 +72,10 @@
 @media (max-width: 479.98px) {
     .header__logo {
         flex: 0 0 40px;
-        overflow: hidden;
+        /* overflow: hidden; */
+    }
+    .menu__body {
+        width: 100%;
     }
 }
 
@@ -90,6 +96,45 @@
         right: 0;
         cursor: pointer;
         z-index: 2;
+    }
+    .stay-safe__row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 86px 0px;
+    }
+    .stay-safe__img {
+        margin: 50px 0px 0px 0px;
+        order: 2;
+    }
+    .stay-safe__colums {
+        order: 1;
+    }
+    .card__get-started__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .number {
+        font-size: 24px;
+    }
+    .text__number {
+        font-size: 12px;
+    }
+    .talk__row {
+        flex-direction: column;
+    }
+    .talk__column {
+        margin: 60px 0px 0px 0px;
+    }
+    .talk__img {
+        margin: 40px auto 40px auto;
+    }
+    .healthcare {
+        margin: 0px 0px 0px 0px;
+    }
+    .healthcare__row {
+        flex-direction: column;
     }
 }
 
@@ -143,4 +188,29 @@
 .icon__menu.open span:nth-child(3) {
     transform: rotate(-45deg);
     top: 13px;
+}
+
+/* adaptive 578px */
+@media (max-width: 578px) {
+    .get-started__image img {
+        width: 100%;
+        padding: 25px 0px 0px 0px;
+    }
+    .video__get-started {
+        padding: 38px 0px 28px 18px;
+    }
+    .boxes {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0px 0px;
+    }
+}
+
+/* adaptive 370px */
+@media (max-width: 370px) {
+    .header__logo {
+        width: 70px;
+        overflow: hidden;
+    }
 }
